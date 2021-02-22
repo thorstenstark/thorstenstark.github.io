@@ -48,6 +48,12 @@ header .site-name {
     font-weight: bold;
 }
 
+header .site-description {
+    font-size: 1em;
+    color: #c7cce2;
+    font-weight: regular;
+}
+
 nav {
     margin-top: 20px;
 }
@@ -229,6 +235,9 @@ footer {
     }
 
     body,
+    header {
+        color: #ddd;
+    }
     header .site-name {
         color: #ddd;
     }
